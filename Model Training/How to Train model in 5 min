@@ -1,0 +1,46 @@
+Source: https://towardsdatascience.com/how-to-train-a-machine-learning-model-in-5-minutes-c599fa20e7d5 
+
+How to train a Machine Learning model in 5 minutes
+
+
+1.Model Naming — Give Your Model a Name: Let’s start with giving your model a name, describe your model and attach tags to your model. Tags are to make your model searchable.
+
+
+Step 1— Naming your model
+2.Data Type Selection — Choose data type(Images/Text/CSV): It’s time to tell us about the type of data you want to train your model. We support Images, Text and *.CSV (categorical data) data types. Select an appropriate data type and click next to proceed to the next step. We have also made some data sets public for everyone to start with. Public Data Sets are to give you an idea of what types of data you need to train your models on Mateverse.
+
+
+Step 2— Data Type Selection
+3.Data Upload — Upload your data or choose from Public Data Sets: Choose from public datasets like Jewellery Data set (Images), Gender Data Set (Images), Question or Sentence Data Set (Text), Numerai Data Set (CSV) or upload your data. Uploading your data is a straight-forward process, just select your files and type the label for selected files.
+
+Let’s take an example of image data set. Images can be uploaded directly or can be zipped and uploaded as a compressed file (different compressed files for different labels/categories). All the images belonging to one unique category should be inside that compressed file.
+
+P.S.: Advice: Not to compress folders, if you compress folders, it won’t work. Select files and compress them directly.
+
+
+Sample compressed file with images — This is how your compressed file’s data should look like
+Text — Similarly you can upload Text (*.txt) files too. Here’s a sample Text file. Each unique sentence should be a different line in the text file.
+
+
+Sample Text(.txt) file
+CSV — If you want to train a model be it Classification or Regression(Forecasting), just upload one csv file which has it all. Once you’ve uploaded the file you’ll have to do two things:
+
+a) Skip the columns which you find redundant/insignificant for training the desired model, by pressing the skip button.
+
+b) Select one column on which you want to do the prediction after the model gets trained.
+
+You can even change the column names for your reference.
+
+
+CSV fIle Upload Preview
+P.S.: Try to avoid to unsupported characters in both Text and CSV files.
+
+4.Type category(label) for the files (images/text file) that you have uploaded and click on submit to begin upload. Wait for some time till our web app uploads all the files. You can upload images for as many categories as possible. You need at least 2 labels(categories) for the classification on Image/Text to begin with. We support text files with “*.txt” extension.
+
+5.Start Training: Push the button, to start the training. Now Mateverse’s intelligent backend will start with processing the data that you have uploaded and preparing it for the training. Along with, it will also start selecting the best Machine Learning/Deep Learning algorithm to train the best model with the highest accuracy.
+
+
+Step 4: Push the Button to Start Training
+6.Start Testing: Your model is trained and you can start testing the model that you have trained freshly. You can use it via UI or by integrating it via APIs (Refer Docs).
+
+
