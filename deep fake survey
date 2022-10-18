@@ -1,0 +1,9 @@
+https://www.scirp.org/journal/paperinformation.aspx?paperid=109149
+
+
+Deepfakes Detection Techniques Using Deep Learning: A SurveyAbdulqader M. Almars
+College of Computer Science and Engineering, Taibah University, Yanbu, Saudi Arabia.
+DOI: 10.4236/jcc.2021.95003   PDF   HTML   XML   1,275 Downloads   17,415 Views   Citations
+Abstract
+
+Deep learning is an effective and useful technique that has been widely applied in a variety of fields, including computer vision, machine vision, and natural language processing. Deepfakes uses deep learning technology to manipulate images and videos of a person that humans cannot differentiate them from the real one. In recent years, many studies have been conducted to understand how deepfakes work and many approaches based on deep learning have been introduced to detect deepfakes videos or images. In this paper, we conduct a comprehensive review of deepfakes creation and detection technologies using deep learning approaches. In addition, we give a thorough analysis of various technologies and their application in deepfakes detection. Our study will be beneficial for researchers in this field as it will cover the recent state-of-art methods that discover deepfakes videos or images in social contents. In addition, it will help comparison with the existing works because of the detailed description of the latest methods and dataset used in this domain.
